@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="tab_text_normal">#696969</color>
+    <color name="tab_text_selected">#73bf40</color>
+    <color name="tab_title_bk">#2B3033</color>
+    <color name="page_view_bk">#F1F1F1</color>
+    <color name="main_bottom_bk">#F8F8F8</color>
+    <color name="tab_splite_bk">#C7C6C6</color>
+    <color name="item_room_text_color">#262626</color>
+    <color name="item_room_split_color">#C5C5C5</color>
+    <color name="clear_all_text_color">#8A8A8A</color>
+    <color name="clear_all_text_color_pressed">#CACACA</color>
+    <color name="search_history_text_color">#A9A9A9</color>
+    <color name="search_history_text_color_pressed">#1C8220</color>
+    <color name="search_history_item_bk_color">#FFFFFF</color>
+    <color name="search_history_item_text_color">#262626</color>
+    <color name="my_room_edit_text_color">#09BB07</color>
+    <color name="my_room_del_text_sel_color">#EC5050</color>
+    <color name="my_room_del_text_unsel_color">#f6b5b5</color>
+    <color name="my_room_tab_split">#B9B9B9</color>
+    <color name="my_room_tab_text_normal">#565656</color>
+    <color name="show_feature_text_Color">#FFFFFF</color>
+    <color name="show_feature_light_text_Color">#09BB07</color>
+    <color name="show_loading_tip_Color">#E3E3E3</color>
+    <color name="room_error_main_tip_color">#A4A6A8</color>
+    <color name="room_error_slave_tip_color">#C0C0C0</color>
+    <color name="my_rv_room_go_color">#55585A</color>
+    <color name="room_brodcast_hint_text_color">#B5B4B4</color>
+    <color name="brandscape_show_background">#181818</color>
+    <color name="search_edit_hont_color">#6A6A6A</color>
+    <color name="room_item_sel_color">#E4E4E4</color>
+    <color name="pull_refresh_listview_head_text_color">#ABADAF</color>
+    <color name="find_key_color">#09BB07</color>
+    <color name="share_pop_wnd_bk_color">#F7F7F7</color>
+    <color name="show_manager_bk_color">#E7E7E7</color>
+    <color name="show_manager_split_color">#D4D4D4</color>
+    <color name="ts_item_extra_color">#A2A2A2</color>
+
+
+    <!-- welcome -->
+    <color name="welcome_indicator_stroke">#4CFFFFFF</color>
+    <color name="welcome_indicator_normal">#00FFFFFF</color>
+    <color name="welcome_indicator_selected">#4CFFFFFF</color>
+
+    <!-- default dialog (common) -->
+    <color name="defaultdialog_white">#FFFFFF</color>
+    <color name="defaultdialog_black">#FF000000</color>
+    <color name="defaultdialog_split">#E4E3E0</color>
+
+    <!-- default dialog (wheel) -->
+    <color name="transparent">#00000000</color>
+    <color name="wheel_selected_bg">#FFF5F4F4</color>
+    <color name="wheel_item_bg">#FFFFFFFF</color>
+    <color name="wheel_item_stroke">#FFFFFFFF</color>
+
+    <!-- default dialog (progress bar) -->
+    <color name="progressbar_background">#fff6f6f6</color>
+    <color name="progressbar_background_start">#00b7ee</color>
+    <color name="progressbar_background_end">#0075a9</color>
+    <color name="progressbar_secondaryProgress_start">#00b7ee</color>
+    <color name="progressbar_secondaryProgress_end">#0075a9</color>
+    <color name="progressbar_progress_start">#ffffff</color>
+    <color name="progressbar_progress_end">#fffe9801</color>
+
+    <!-- login & me (common) -->
+    <color name="item_split_color">#C5C5C5</color>
+    <color name="green_btn_text">#FFFFFF</color>
+
+    <color name="me_item_sel_color">#E4E4E4</color>
+
+    <!-- login -->
+    <color name="hint_text_color">#A4A4A4</color>
+    <color name="login_btn">#FFFFFF</color>
+    <color name="thirdparty_login">#8A8A8A</color>
+    <color name="thirdparty_login_btn">#262626</color>
+    <color name="thirdparty_login_split">#C1C6AF</color>
+    <color name="freeregister_link">#09BB07</color>
+    <color name="forgetpasswd_link">#09BB07</color>
+    <color name="accountlist_gap">#C7D5D1</color>
+    <color name="accountlist_bkg">#F8F8F8</color>
+    <color name="sign_in_box_bkg">#FFFFFF</color>
+    <color name="login_popwnd_bg">#00FFFFFF</color>
+
+    <!-- register -->
+    <color name="register_bg">#F1F1F1</color>
+    <color name="register_read_and_agreement">#A9A9A9</color>
+    <color name="register_serviceagreement">#09BB07</color>
+    <color name="register_sended_phonenumber">#494949</color>
+    <color name="register_reget_securecode_normal">#09BB07</color>
+    <color name="register_reget_securecode_pressed">#09BB07</color>
+    <color name="register_reget_securecode_unable">#9BD69A</color>
+    <color name="register_securecode_countdown">#8A8A8A</color>
+
+    <!-- forget password -->
+    <color name="forgetpassword_bg">#F1F1F1</color>
+    <color name="forgetpassword_textview">#494949</color>
+    <color name="forgetpassword_edittext">#262626</color>
+    <color name="forgetpassword_cant_end">#09BB07</color>
+    <color name="forgetpassword_read_and_agreement">#A9A9A9</color>
+    <color name="forgetpassword_serviceagreement">#09BB07</color>
+    <color name="forgetpassword_sended_phonenumber">#494949</color>
+    <color name="forgetpassword_reget_securecode_normal">#09BB07</color>
+    <color name="forgetpassword_reget_securecode_pressed">#09BB07</color>
+    <color name="forgetpassword_reget_securecode_unable">#9BD69A</color>
+    <color name="forgetpassword_securecode_countdown">#8A8A8A</color>
+
+    <color name="forgetpassword_prompt_dialog_title">#09BB07</color>
+
+
+    <!-- forget password(set new password) -->
+    <color name="set_newpassword_bg">#F1F1F1</color>
+    <color name="set_newpassword_title">#262626</color>
+    <color name="set_newpassword_hint">#CECFCE</color>
+
+    <!-- login secure code dialog -->
+    <color name="secure_code_dialog_bg">#E7E6E6</color>
+    <color name="secure_code_dialog_split">#CCC8C8</color>
+    <color name="secure_code_dialog_reload_text">#09BB07</color>
+    <color name="secure_code_dialog_default_text">#262626</color>
+
+    <!-- delete account dialog -->
+    <color name="delete_account_dialog_title">#09BB07</color>
+    <color name="delete_account_dialog_description">#262626</color>
+    <color name="delete_account_dialog_confirm">#262626</color>
+    <color name="delete_account_dialog_cancel">#262626</color>
+
+    <!-- Me -->
+    <color name="me_bg">#F1F1F1</color>
+    <color name="me_accountid">#A9A9A9</color>
+    <color name="me_nickname">#262626</color>
+    <color name="me_item_title">#262626</color>
+    <color name="me_item_extra">#A9A9A9</color>
+
+    <color name="me_commit_normal">#09BB07</color>
+    <color name="me_commit_pressed">#1C8220</color>
+
+    <!-- Secure Center -->
+    <color name="secure_center_bg">#F1F1F1</color>
+    <color name="secure_center_item_title">#262626</color>
+    <color name="secure_center_item_extra">#A9A9A9</color>
+    <color name="secure_center_white">#FFFFFF</color>
+
+    <!-- Modify Password -->
+    <color name="modifypassword_bg">#F1F1F1</color>
+    <color name="modifypassword_title">#262626</color>
+    <color name="modifypassword_hint">#CECFCE</color>
+    <color name="modifypassword_sended_phonenumber">#494949</color>
+    <color name="modifypassword_securecode_countdown">#8A8A8A</color>
+    <color name="modifypassword_textview">#494949</color>
+    <color name="modifypassword_edittext">#262626</color>
+    <color name="modifypassword_cant_end">#09BB07</color>
+
+    <color name="bindmobile_bg">#F1F1F1</color>
+    <color name="bindmobile_title">#262626</color>
+    <color name="bindmobile_hint">#CECFCE</color>
+    <color name="bindmobile_sended_phonenumber">#494949</color>
+    <color name="bindmobile_securecode_countdown">#8A8A8A</color>
+    <color name="bindmobile_white">#FFFFFF</color>
+    <color name="bindmobile_black">#262626</color>
+    <color name="bindmobile_cant_end">#09BB07</color>
+    <color name="bindmobile_gray">#494949</color>
+
+    <color name="bindmobile_popwnd_bg">#AA000000</color>
+
+    <!-- Setting -->
+    <color name="app_recommendation_bg">#F1F1F1</color>
+    <color name="app_recommendation_item_title">#262626</color>
+    <color name="app_recommendation_item_extra">#A9A9A9</color>
+    <color name="app_recommendation_item_deliver">#C5C5C5</color>
+    <color name="app_recommendation_black">#000000</color>
+    <color name="app_recommendation_white">#FFFFFF</color>
+
+    <!-- Setting -->
+    <color name="setting_bg">#F1F1F1</color>
+    <color name="setting_item_title">#262626</color>
+    <color name="setting_item_extra">#A9A9A9</color>
+    <color name="setting_item_deliver">#C5C5C5</color>
+    <color name="setting_black">#000000</color>
+    <color name="setting_white">#FFFFFF</color>
+
+    <color name="setting_update_dialog_title">#09BB07</color>
+    <color name="setting_update_dialog_description">#262626</color>
+    <color name="setting_update_dialog_confirm">#09BB07</color>
+    <color name="setting_update_dialog_cancel">#262626</color>
+
+    <color name="accountmanage_exitcurrent_dialog_title">#09BB07</color>
+    <color name="accountmanage_exitcurrent_dialog_description">#262626</color>
+    <color name="accountmanage_exitcurrent_dialog_confirm">#262626</color>
+    <color name="accountmanage_exitcurrent_dialog_cancel">#262626</color>
+
+    <color name="setting_clearappcache_dialog_title">#09BB07</color>
+    <color name="setting_clearappcache_dialog_description">#262626</color>
+    <color name="setting_clearappcache_dialog_confirm">#262626</color>
+    <color name="setting_clearappcache_dialog_cancel">#262626</color>
+    <color name="setting_item_tips">#959595</color>
+
+    <!-- login offline notice dialog -->
+    <color name="offline_notice_dialog_title">#09BB07</color>
+    <color name="offline_notice_dialog_description">#262626</color>
+    <color name="offline_notice_dialog_btn">#262626</color>
+
+    <!-- PersonalInfo -->
+    <color name="personalinfo_bg">#F1F1F1</color>
+    <color name="personalinfo_text">#262626</color>
+    <color name="personalinfo_black">#000000</color>
+    <color name="personalinfo_white">#FFFFFF</color>
+
+    <color name="personalinfo_modify_gender_title">#09BB07</color>
+    <color name="personalinfo_modify_gender_text">#262626</color>
+
+    <color name="personalinfo_modify_area_slideview_bg">#00000000</color>
+    <color name="personalinfo_modify_area_slideview_clickbg">#55AAAAAA</color>
+    <color name="personalinfo_modify_area_slideview_text">#262626</color>
+    <!--<color name="personalinfo_modify_area_slideview_clicktext">#262626</color>-->
+    <color name="personalinfo_modify_area_slideview_clicktext">#ffffff</color>
+
+    <color name="personalinfo_modify_area_popwnd_bg">#AA000000</color>
+    <color name="personalinfo_modify_area_popwnd_text">#FFFFFF</color>
+
+    <color name="personalinfo_modify_area_grouptitle_bg">#F1F1F1</color>
+    <color name="personalinfo_modify_area_grouptitle_text">#A9A9A9</color>
+    <color name="personalinfo_modify_area_item_text">#000000</color>
+    <color name="personalinfo_modify_area_item_split">#A4A4A4</color>
+
+    <color name="personalinfo_modify_area_item_normal">#FFFFFF</color>
+    <color name="personalinfo_modify_area_item_pressed">#D8D8D8</color>
+
+    <color name="modify_userheader_bg">#FFFFFF</color>
+    <color name="modify_userheader_edit_text_color">#09BB07</color>
+    <color name="modify_userheader_tab_split">#DCDCDC</color>
+    <color name="modify_userheader_tab_text_normal">#262626</color>
+    <color name="modify_userheader_tab_bottom">#C5C5C5</color>
+    <color name="modify_userheader_split_line">#c7c7c7</color>
+
+    <!-- Feedback -->
+    <color name="feedback_bg">#F1F1F1</color>
+    <color name="feedback_text">#262626</color>
+    <color name="feedback_black">#000000</color>
+    <color name="feedback_white">#FFFFFF</color>
+
+    <!-- AboutVV -->
+    <color name="aboutvv_bg">#F1F1F1</color>
+    <color name="aboutvv_white">#FFFFFF</color>
+    <color name="aboutvv_content_title">#A9A9A9</color>
+    <color name="aboutvv_content_content">#262626</color>
+    <color name="aboutvv_service_agreement_normal">#666F85</color>
+    <color name="aboutvv_service_agreement_pressed">#6F9CCE</color>
+    <color name="aboutvv_copyright">#A9A9A9</color>
+
+    <!-- VV Account Manage-->
+    <color name="accountmanage_bg">#F1F1F1</color>
+    <color name="accountmanage_edit">#09BB07</color>
+    <color name="accountmanage_nickname">#262626</color>
+    <color name="accountmanage_accountid">#8A8A8A</color>
+    <color name="accountmanage_item_normal">#FFFFFF</color>
+    <color name="accountmanage_item_pressed">#D8D8D8</color>
+    <color name="accountmanage_item_deliver">#C5C5C5</color>
+    <color name="accountmanage_black">#000000</color>
+    <color name="accountmanage_white">#FFFFFF</color>
+
+    <!-- Add Account -->
+    <color name="addaccount_bg">#F1F1F1</color>
+
+    <!-- Switch Account -->
+    <color name="switchaccount_bg">#F1F1F1</color>
+
+
+    <!-- Push -->
+    <color name="notificationbar_bg">#00000000</color>
+    <color name="notificationbar_title">#FFFFFF</color>
+    <color name="notificationbar_info">#B1B1B1</color>
+    <color name="notificationbar_btn_text">#FFFFFF</color>
+
+
+    <color name="show_chattab_normal">#565656</color>
+    <color name="show_chattab_selected">#06BA06</color>
+    <color name="show_chattab_bkg">#ffffff</color>
+    <color name="show_vertical_split_line">#e6e6e6</color>
+    <color name="show_bottom_panel_bkg">#ebebeb</color>
+    <color name="show_chat_edit_bkg">#ffffff</color>
+    <color name="show_chat_edit_split_line">#c7c6c6</color>
+    <color name="show_chat_audiencetab_normal">#686868</color>
+    <color name="show_chat_audiencetab_selected">#154815</color>
+    <color name="show_chat_tab_selected_line">#08bb07</color>
+    <color name="show_chat_audiencebtn_txt_color">#262626</color>
+    <color name="show_chat_audience_child_bkg">#f5f5f5</color>
+    <color name="show_chat_audience_name_color">#262626</color>
+    <color name="show_chat_audience_number_color">#a9a9a9</color>
+    <color name="show_chat_sendtxt_hover_color">#2a2a2a</color>
+    <color name="show_chat_sendtxt_normal_color">#ffffff</color>
+    <color name="show_chat_audience_group_color">#ffffff</color>
+    <color name="show_chat_mgr_nickname_normal_color">#09bb07</color>
+    <color name="show_chat_mgr_nickname_press_color">#ffa1bb</color>
+    <color name="show_chat_normal_nickname_normal_color">#6c808d</color>
+    <color name="show_chat_normal_nickname_press_color">#b0b9c0</color>
+    <color name="show_chat_content_color">#3f3f3f</color>
+    <color name="show_chat_input_text_hint_color">#cacaca</color>
+    <color name="show_chat_input_text2_hint_color">#555555</color>
+    <color name="show_chat_split_line_color">#e6e6e6</color>
+    <color name="show_chat_secret_menuitem_normal_color">#262626</color>
+    <color name="show_chat_secret_menuitem_press_color">#c0c1c2</color>
+    <color name="show_chat_secret_menuitem_split_color">#b9b9b9</color>
+    <color name="show_chat_kickout_title_username_color">#a9a9a9</color>
+    <color name="show_chat_kickout_radiobtn_text_color">#262626</color>
+    <color name="show_chat_username_menu_bkg">#ffffff</color>
+    <color name="show_chat_micseq_tip_color">#c0c0c0</color>
+    <color name="show_chat_micseq_mode_color">#c0c0c0</color>
+    <color name="show_chat_micseq_seqnum_color">#6d7477</color>
+    <color name="show_chat_micseq_selfnum_color">#09bb07</color>
+    <color name="show_chat_apply_mic_btn_color">#ffffff</color>
+    <color name="show_chat_audience_group_title_color">#7d7d7d</color>
+    <color name="show_chat_audience_title_bkg_color">#e7e7e7</color>
+    <color name="show_chat_msgregion_bkg_color1">#ffffff</color>
+    <color name="show_chat_msgregion_bkg_color2">#99edf9ed</color>
+    <color name="show_chat_putmic_color">#33B5E5</color>
+    <color name="show_chat_recharge_normal">#09bb07</color>
+    <color name="show_chat_recharge_press">#97d497</color>
+    <color name="show_chat_gift_tab_normal">#ffffff</color>
+    <color name="show_chat_gift_tab_press">#e8e8e8</color>
+    <color name="show_chat_gift_tabtext_normal">#565656</color>
+    <color name="show_chat_gift_tabtext_press">#09bb07</color>
+    <color name="show_chat_gift_keynum_normal">#262626</color>
+    <color name="show_chat_gift_keynum_press">#262626</color>
+    <color name="show_chat_nickname_bkg">#40000000</color>
+    <color name="show_chat_secret_normal">#565656</color>
+    <color name="show_chat_secret_selected">#09bb07</color>
+    <color name="show_chat_voice_btn_text">#5a5a5a</color>
+    <color name="show_chat_tip_text">#E5FFFFFF</color>
+    <color name="ffffe0e1">#ffffe0e1</color>
+    <color name="ff735756">#ff735756</color>
+    <color name="ff262626">#ff262626</color>
+    <color name="ffa9a9a9">#ffa9a9a9</color>
+    <color name="ffcdcdcd">#ffcdcdcd</color>
+    <color name="ff559950">#ff559950</color>
+    <color name="ff999999">#ff999999</color>
+
+
+    <color name="im_search_contact_edittext">#c8cbcb</color>
+    <color name="im_search_contact_search">#262626</color>
+    <color name="im_search_contact_number">#07bb09</color>
+
+
+    <color name="im_new_contact_nickname">#262626</color>
+    <color name="im_new_contact_message">#a9a9a9</color>
+    <color name="im_new_contact_receive">#ffffff</color>
+    <color name="im_new_contact_added">#a9a9a9</color>
+    <color name="im_new_contact_split">#ffcdcdcd</color>
+
+
+    <color name="im_button_color_clicked">#E4E4E4</color>
+    <color name="im_button_color_normal">#ffffff</color>
+
+    <!--user profile -->
+    <color name="im_profile_account">#262626</color>
+    <color name="im_profile_add_friend_bg">#f9f9f9</color>
+    <color name="im_profile_vvid">#A9A9A9</color>
+    <color name="im_profile_item_label">#494949</color>
+    <color name="im_profile_item_info">#000000</color>
+    <color name="im_profile_button_send">#ffffff</color>
+    <color name="im_profile_extra">#989898</color>
+
+
+    <color name="im_custom_dialog_background">#ffffff</color>
+    <color name="im_custom_dialog_title">#00bb00</color>
+    <color name="im_custom_dialog_message">#262626</color>
+    <color name="im_custom_dialog_cancel">#262626</color>
+    <color name="im_custom_dialog_ok">#262626</color>
+    <color name="im_custom_dialog_ok_red">#ff0000</color>
+
+    <color name="im_image_selector_grid_bg">#333333</color>
+    <color name="im_image_selector_bg">#000000</color>
+
+    <color name="im_image_selector_take_photo">#CDCECE</color>
+    <color name="im_image_selector_item_mask">#88000000</color>
+    <color name="im_image_selector_text_color">#ffffff</color>
+
+    <color name="im_image_selector_camera_normal">#121212</color>
+    <color name="im_image_selector_camera_mask">#353535</color>
+
+
+    <color name="im_image_selector_bottom_mask">#cc141414</color>
+    <color name="im_image_selector_bottom_text_normal">#fefefe</color>
+    <color name="im_image_selector_bottom_text_pressed">#aaaaaa</color>
+    <color name="im_image_selector_bottom_split">#ffff0000</color>
+
+
+    <color name="im_image_selector_folder_name">#282828</color>
+    <color name="im_image_selector_folder_size">#a9a9a9</color>
+    <color name="im_image_selector_folder_bg">#ffffff</color>
+    <color name="im_image_selector_folder_split">#a9a9a9</color>
+
+
+    <color name="im_image_camera_confirm_bg">#33141414</color>
+    <color name="im_image_camera_confirm_giveup">#a9a9a9</color>
+    <color name="im_image_camera_confirm_accept">#08db05</color>
+    <color name="im_image_camera_confirm_border">#cc3d3e3e</color>
+
+
+    <color name="im_image_preview_text">#ffffff</color>
+    <color name="im_image_preview_bg">#2a3232</color>
+
+
+    <color name="im_chatinfo_nickname">#262626</color>
+
+
+    <color name="im_titlebar_bottom_color">#ffffff</color>
+
+    <color name="im_green_text_normal">#09bb07</color>
+    <color name="im_green_text_pressed">#1C8220</color>
+    <color name="im_green_text_unable">#7f09bb07</color>
+
+    <color name="im_listitem_blacklist_split">#ffcdcdcd</color>
+    <color name="im_listitem_blacklist_name">#121212</color>
+    <color name="im_listitem_blacklist_bg">#ffffff</color>
+    <color name="im_listitem_blacklist_letter_bg">#f1f1f1</color>
+    <color name="im_listitem_blacklist_letter">#a9a9a9</color>
+
+    <color name="im_default_background">#ececec</color>
+
+    <color name="im_context_menu_split">#CDCDCD</color>
+    <color name="im_context_menu_border">#e3e1e1</color>
+    <color name="im_context_menu_name_normal">#262626</color>
+    <color name="im_context_menu_name_disabled">#7f262626</color>
+    <color name="im_context_menu_selector">#E4E4E4</color>
+    <color name="im_context_menu_bg">#7f000000</color>
+    <color name="im_context_menu_item_bg">#ffffff</color>
+
+
+    <color name="corner_menu_split">#191b1c</color>
+    <color name="corner_menu_item_bg_normal">#393a3f</color>
+    <color name="corner_menu_item_bg_pressed">#191b1c</color>
+    <color name="corner_menu_item_bg_disabled">#191b1c</color>
+    <color name="corner_menu_item_text_normal">#ffffff</color>
+    <color name="corner_menu_item_text_disabled">#191b1c</color>
+
+
+    <color name="qrcode_footer_text_color_normal">#a9a9a9</color>
+    <color name="qrcode_footer_text_color_pressed">#09bb07</color>
+    <color name="qrcode_footer_bg">#d6000000</color>
+    <color name="qrcode_content_bg">#9e000000</color>
+
+    <color name="myqrcode_bg">#353738</color>
+
+
+    <color name="webview_border">#4c4e4f</color>
+    <color name="webview_bg">#343738</color>
+    <color name="webview_bg_text">#6f7375</color>
+    <color name="webview_progress_bg">#00000000</color>
+    <color name="webview_progress_progress">#09bb07</color>
+    <color name="webview_progress_secondary">#00000000</color>
+
+
+    <color name="show_feature_bg">#f1f1f1</color>
+
+    <!-- chat -->
+
+    <color name="color_bfbfbf">#bfbfbf</color>
+    <color name="color_262626">#262626</color>
+    <color name="color_ececec">#ececec</color>
+    <color name="color_e0e0e0">#e0e0e0</color>
+    <color name="color_c0c0c0">#c0c0c0</color>
+    <color name="color_cbcbcb">#cbcbcb</color>
+    <color name="color_cdcdcd">#cdcdcd</color>
+    <color name="color_f4f4f6">#f4f4f6</color>
+    <color name="color_c2c2c2">#c2c2c2</color>
+    <color name="color_dad9da">#dad9da</color>
+    <color name="color_dadada">#dadada</color>
+    <color name="color_d8d8d8">#d8d8d8</color>
+    <color name="color_888888">#888888</color>
+    <color name="color_565656">#565656</color>
+    <color name="color_a9a9a9">#a9a9a9</color>
+    <color name="color_f1f1f1">#f1f1f1</color>
+    <color name="color_464646">#464646</color>
+    <color name="color_494949">#494949</color>
+    <color name="ffe80000">#ffe80000</color>
+    <color name="ff09bb07">#ff09bb07</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="color_fdfdfd">#fdfdfd</color>
+    <color name="fff1f1f1">#fff1f1f1</color>
+    <color name="color_09bb07">#09bb07</color>
+    <color name="color_6c6c6c">#6c6c6c</color>
+    <color name="color_858585">#858585</color>
+    <color name="translucent">#80000000</color>
+    <color name="color_605f65">#ff605f65</color>
+    <color name="color_b1b1b1">#b1b1b1</color>
+    <color name="color_949494">#ff949494</color>
+    <color name="color_f43530">#fff43530</color>
+    <color name="color_bb000000">#bb000000</color>
+    <color name="color_ffe2e2e2">#ffe2e2e2</color>
+    <color name="color_ffdbf4c3">#ffdbf4c3</color>
+    <color name="color_ff89c053">#ff89c053</color>
+
+    <!-- redpacket begin -->
+    <color name="redpacket_pay_tc">#09bb07</color>
+    <color name="redpacket_pay_divider">#cacaca</color>
+    <color name="redpacket_divider_gray">#cdcdcd</color>
+    <color name="redpacket_divider_green">#00cc33</color>
+    <color name="redpacket_titlebar_bg">#da5a51</color>
+    <color name="redpacket_titlebar_send">#f9cb78</color>
+    <color name="redpacket_def_bg">#faf6f1</color>
+    <color name="redpacket_hc">#cacad0</color>
+    <color name="redpacket_tc">#262626</color>
+    <color name="redpacket_totalluck_tep_tc">#3f88a8</color>
+    <color name="redpacket_tip_hc">#cccccc</color>
+    <color name="redpacket_tip_tc">#464646</color>
+    <color name="redpacket_send_available">#da5a51</color>
+    <color name="redpacket_send_unavailable">#f2c5be</color>
+    <color name="redpacket_error_bg">#ad3128</color>
+    <color name="redpacket_error_tip">#ef4d43</color>
+    <color name="redpacket_error_tc">#fed602</color>
+    <color name="redpacket_bg">#e0584a</color>
+    <color name="redpacket_package_tip_tc">#f9ae8e</color>
+    <color name="redpacket_package_receive_tc">#ffe532</color>
+    <color name="redpacket_history_receive">#151414</color>
+    <color name="redpacket_history_tip">#a9a9a9</color>
+    <color name="redpacket_history_divider">#d9d9d9</color>
+    <color name="redpacket_history_member_count">#f1f1f1</color>
+    <color name="redpacket_history_bestluck">#e0b066</color>
+    <color name="redpacket_landscape_alert_counter">#ef4d43</color>
+    <!-- redpacket end -->
+
+    <!-- VRedPackets -->
+    <color name="color_c8c6c6">#c8c6c6</color>
+    <color name="color_dc584c">#dc584c</color>
+    <color name="color_da5950">#da5950</color>
+    <color name="color_fefaf6">#fefaf6</color>
+    <color name="color_faf6f1">#faf6f1</color>
+    <color name="color_e5cdcccc">#e5cdcccc</color>
+    <color name="color_cfba9e">#cfba9e</color>
+    <color name="color_9a9a9a">#9a9a9a</color>
+    <color name="color_b6aea4">#b6aea4</color>
+    <color name="color_b89a6a">#b89a6a</color>
+    <color name="color_3f88a8">#3f88a8</color>
+    <color name="color_848484">#848484</color>
+    <color name="color_cb4c43">#cb4c43</color>
+    <color name="color_e5e5e5">#e5e5e5</color>
+    <color name="color_e5da5950">#e5da5950</color>
+    <color name="color_e5e5e3e0">#e5e5e3e0</color>
+    <color name="color_e5eeebe7">#e5eeebe7</color>
+</resources>

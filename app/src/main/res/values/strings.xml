@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DialogTest</string>
+    <string name="im_custom_dialog_title">温馨提示</string>
+    <string name="im_custom_dialog_cancel">取消</string>
+    <string name="im_custom_dialog_ok">确定</string>
+    <string name="time_selecte_red_packets">选择时间</string>
+</resources>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="40dp"
+    android:background="@drawable/im_dialog_background"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/im_basic_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="@string/im_custom_dialog_title"
+        android:textColor="@color/setting_clearappcache_dialog_title"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/defaultdialog_split" />
+
+    <TextView
+        android:id="@+id/im_basic_dialog_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="12dp"
+        android:ellipsize="end"
+        android:gravity="left"
+        android:textColor="@color/setting_clearappcache_dialog_description"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/defaultdialog_split" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/im_custom_edittext_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="-14dp"
+            android:padding="8dp"
+            android:src="@drawable/room_pwd_set_delete_button" />
+
+        <EditText
+            android:id="@+id/im_custom_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/im_custom_edittext_reset"
+            android:background="@null"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="left|top"
+            android:maxLength="100"
+            android:singleLine="true"
+            android:text="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/im_custom_edittext"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/search_edit_frame" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/defaultdialog_split" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/im_auth_dialog_pass_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="-14dp"
+            android:padding="8dp"
+            android:src="@drawable/room_pwd_set_delete_button" />
+
+        <EditText
+            android:id="@+id/im_auth_dialog_pass_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/im_auth_dialog_pass_reset"
+            android:background="@null"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="left|top"
+            android:inputType="textPassword"
+            android:maxLength="100"
+            android:singleLine="true"
+            android:text="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/im_auth_dialog_pass_edit"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/search_edit_frame" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/defaultdialog_split" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:background="@color/defaultdialog_white"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/im_basic_dialog_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:visibility="visible">
+
+            <Button
+                android:id="@+id/im_basic_dialog_cancel_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/tab_room_item_selector"
+                android:clickable="false"
+                android:text="@string/im_custom_dialog_cancel"
+                android:textColor="@color/setting_clearappcache_dialog_cancel" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/im_basic_dialog_button_split"
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/defaultdialog_split"
+            android:gravity="center" />
+
+        <RelativeLayout
+            android:id="@+id/im_basic_dialog_confirm"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:visibility="visible">
+
+            <Button
+                android:id="@+id/im_basic_dialog_confirm_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/tab_room_item_selector"
+                android:clickable="false"
+                android:text="@string/im_custom_dialog_ok"
+                android:textColor="@color/setting_clearappcache_dialog_confirm" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
